@@ -17,7 +17,7 @@ $dumpfile("mux.vcd");
 
 $dumpvars(0,mux_tb);
 
-$monitor($time,"A=%o,S=%o,O=%o",A,S,O);
+$monitor($time,"A=%h,S=%o,O=%o",A,S,O);
 
 #5
 
