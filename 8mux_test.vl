@@ -1,6 +1,6 @@
 module mux_tb;
 
-reg[8:0] A;
+reg[7:0] A;
 
 reg[2:0] S;
 
@@ -21,23 +21,18 @@ $monitor($time,"A=%h,S=%h,O=%b",A,S,O);
 
 #5
 
-A=16'h 3f0a;
+A=8'o 305;
 
-S=4'h 0;
-
-#5
-
-S=4'h 1;
+S=3'o 5 ;
 
 #5
 
-S=4'h 6;
+S=3'o 6;
 
 #5
+S=3'o 5;
 
-S=4'h c;
 
-#5
 
 $finish;
 
