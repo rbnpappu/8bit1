@@ -17,20 +17,20 @@ $dumpfile("mux.vcd");
 
 $dumpvars(0,mux_tb);
 
-$monitor($time,"A=%h,S=%h,O=%b",A,S,O);
+$monitor($time,"A=%o,S=%o,O=%o",A,S,O);
 
 #5
 
 A=8'o 305;
 
-S=3'o 5 ;
+S=3'o 0 ;
 
 #5
 
 S=3'o 6;
 
 #5
-S=3'o 5;
+S=3'o 7;
 
 
 
