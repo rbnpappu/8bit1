@@ -21,7 +21,7 @@ $monitor($time,"A=%o,S=%o,O=%o",A,S,O);
 
 #5
 
-A=8'o 305;
+A=16'h a0;
 
 S=3'o 0 ;
 
